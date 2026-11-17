@@ -80,3 +80,4 @@ PATH="$HOME/.local/share/mise/installs/node/24.18.0/bin:$HOME/.local/share/mise/
 ### Repository-specific release contract
 
 - 本仓具体权威流程见 `docs/releasing.md`；npm 与 GitHub Release 必须按该文件同步完成。
+- - **发布边界**：本仓当前镜像上游 `ryonakae/shepherd` 的 Tag；正式 npm 包与 GitHub Release 以上游发布为权威来源，本 Fork 不重复发布同一 Tag。若形成独立发行线，必须使用不冲突的版本序列并完成完整 Release/产物/registry 验收。
